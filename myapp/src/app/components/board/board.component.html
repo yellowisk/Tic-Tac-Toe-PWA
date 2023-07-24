@@ -2,12 +2,13 @@
 <button (click)="newGame()">Start new Game</button>
 
 <h2 *ngIf="winner">
-pLAYER {{ winner }} just won the game!
+Player {{ winner }} just won the game!
 </h2>
 
 <main>
     <app-square
-        *ngFor="let value of squares; let i = index" [value]="value">
-        (click)="makeMove(i)"
+        *ngFor="let value of squares; let i = index" 
+        [value]="value"
+        (click)="makeMove(i)">
     </app-square>
 </main>
