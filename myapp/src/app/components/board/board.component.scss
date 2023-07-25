@@ -1,10 +1,43 @@
 main {
     display: grid;
-    grid-template-columns: 200px 200px 200px;
+    grid-template-columns: 140px 140px 140px;
     grid-gap: 0px;
+}
+
+button { 
+    width: 20%; 
+    height: 30%; 
+    font-size: 1.5em !important;
+    border: 1px;
+    transition: 450ms ease;
+    margin: 10px;
+}
+
+#start {
+    border-radius: 9px;
+    color: #3b3b3b;
+    background-color: #ffaa00;
+}
+
+#start:hover {
+    background-color: #db8b00
 }
   
 app-square {
     border: 1px gray solid;
-    height: 200px;
+    height: 140px;
+}
+
+html, body {
+    background-color: #323259 fill;
+}
+
+h2 {
+    color: rgb(202, 116, 69);
+    font-size: 1.3em;
+}
+
+h1 {
+    color: ivory;
+    font-size: 2em;
 }
