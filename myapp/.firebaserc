@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "tit-tac-toe-pwa": {
+      "hosting": {
+        "myapp": [
+          "tic-tac-toe-pwa-3ts"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "tit-tac-toe-pwa"
+  }
+}
